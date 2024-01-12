@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    max-height: 400px;
+}
+.image-container img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.header-body-section{
+    position: absolute;
+    top:0;
+    width: 100%;
+    color: white;
+}
+.header-body{
+    position: absolute;
+    top:0;
+    width: 100%;
+    color: white;
+}
+.nav{
+   font-weight: 550;
+   height: 50px;
+}
+.container.nav{
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.nav ul li{
+    padding: 8px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+.Zomato-header{
+    width: 250px;
+    font-size: 80px;
+    font-weight: 900;
+   
+}
+.container-header-body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 420px;
+   flex-direction: column;
+   color: white;
+   font-size: large;
+}
+.header-body-content{
+    position: relative;
+    transform: translateY(-100%);
+} 
+.header-body-section-discover{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.search-container{
+    background-color: white;
+    width: 100%;
+    height: 45px;
+    max-width:730px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+.location-map{
+    color: rgb(207, 95, 95);
+    font-size: 22px;
+}
+.caret-up{
+    color: black;
+}
+.detectionLocation input{
+    border: none;
+    font-size: 14px;
+    width: 190px;
+}
+.search-item{
+    color: rgb(109, 109, 109);
+    font-size: 18px;
+}
+.line{
+    padding: 5px;
+}
+.search-item input{
+   max-width: 100%;
+   width: 400px;
+   font-size: 15px;
+   border: none;
+   padding: 5px 10px;
+   outline: none;
+
+}
+ 
+/**section 1 features**/
+.section-1{
+    margin-top:-380px;
+    margin-bottom: 40px;
+}
+.container-features{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.5 solid gray;
+}
+.features-image{
+    
+    width: 300px;
+    height: 160px;
+    overflow: hidden;
+}
+.features-imag img{
+    width: 100%;
+   background-position:100px ;
+}
+.features h3,
+.features p{
+    padding-left: 20px;
+}
+.features:hover{
+    transform:transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+ section{
+    padding: 10px 0;
+ }
+
+/**section 2**/
+
+.section-2-left h1{
+   font-size: 40px;
+   margin-bottom: 10px;
+}
+.section-2-left p{
+    font-size: 20px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.section-2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-2-Right{
+    align-self: flex-end;
+    color: rgb(222, 73, 73);
+    margin-bottom: 10px;
+}
+.section-2-item{
+    max-width: 230px;
+    height: 320px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 0.7em;
+}
+.section-2-item:first-child{
+    margin-left: 0;
+}
+.section-2-item img{
+    width: 100%;
+    height: 100%;
+}
+.section-2-image-describtion{
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    background: rgba(0,0,0,0.);
+    width: 100%;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    box-shadow: inset -50px -50px 50px rgba(0,0,0,0.1);
+}   
+.section-2-image-describtion p{
+    margin: 0;
+    font-size: 19px;
+}
+.section-2-image-describtion p:nth-child(2){
+    font-size: 14px;
+}
+.section-2-body-container{
+    display: flex;
+    justify-content: center;
+}
+
+.body{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+   justify-content: space-between; 
+  
+
+}
+.downloadApp{
+    width: 100px;
+    display: block;
+}
+.downloadApp img{
+    width: 100%;
+    
+}
+ul{
+    list-style: none;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    margin-top: 50px;
+    height: 10px;
+    width: 100px;
+    
+}
+
+.footer-col{
+    width: 22%;
+    padding :0 16px;
+   background-color:white; 
+   margin-top: 100px;
+
+}
+.footer-col h4{
+    font-size: 14px;
+    color:rgb(3, 3, 3);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 600;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:white;
+    height: 2px;
+   
+}
+.footer-col ul li :not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.footer-col ul li a{
+    font-size: 13px;
+    text-transform: capitalize;
+    color: aquamarine;
+    text-decoration: none;
+    font-weight: 300px;
+    color: rgb(6, 5, 3);
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: aquamarine;
+    padding-left: 8px;
+}
+.footer-col .text a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(50, 23, 29);
+    margin: 0 5px 5px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: rgb(203, 194, 186);
+    transition: all 0.5s ease;
+}
+.footer-col .text a:hover{
+    color: yellowgreen;
+    background-color: rgb(212, 205, 195);
+    
+}
+.footer-menu-item{
+    padding: 0;
+    line-height: 2;
+    font-size: 14px;
+}
+
+.text{
+    font-size: 15px;
+    
+}
+.downloadApp{
+    padding: 0;
+    
+    
+}
+.footer-a{
+    color: black;
+}
+@media screen and (max-width:480px) {
+    body{
+      background-color:white;
+    }  
+    p{
+      font: 1 rem;
+      line-height: 1.5;
+    }
+    img{
+      width: 100%;
+    }
+     
+     .container{
+          flex-wrap: wrap;
+      }
+    #header{
+        display: none;
+      }
+  }   
